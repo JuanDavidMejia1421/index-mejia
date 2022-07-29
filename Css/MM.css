@@ -1,0 +1,99 @@
+.caja{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+th{
+    background-color: black;
+    color: orange;
+}
+td{
+    background-color: black;
+    color: orange;
+}
+table{
+    color:blue
+}
+
+body{
+    background-color: rgba(255, 145, 0, 0.637);
+}
+.caja3{
+    display: flex;
+  justify-content: left;
+  align-items: left;
+}
+.caja1{
+    border: 3px solid rgb(243, 95, 9);
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+.bono{
+    font-family: sans-serif;
+    font-size: 20px;
+    letter-spacing:-2px;
+    color: rgb(3, 31, 49);
+    text-shadow: 0 0 5px #fff, 0 0 10px rgb(179, 163, 252), 0 0 15px rgb(19, 220, 255), 0 0 20px #1d85fd, 0 0 25px #0004ff;
+    -webkit-text-fill-color: #092768;
+    -webkit-text-stroke-color:#130336;
+    -webkit-text-stroke-width:0.2px; 
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+}
+.F{
+    font-family: sans-serif;
+     
+    font-size: 20px;
+    letter-spacing:-2px;
+    color: rgb(3, 31, 49);
+    text-shadow: 0 0 5px #fff, 0 0 10px rgb(255, 255, 255), 0 0 15px rgb(252, 249, 83), 0 0 20px #efff5e, 0 0 25px #ffee04;
+    -webkit-text-fill-color: #5c3f09;
+    -webkit-text-stroke-color:#5c3f09;
+    -webkit-text-stroke-width:0.2px; 
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.pc{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+.perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PF{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MV{
+  list-style: none;
+  justify-content: space-around;
+}
+
+.MV > li > a{
+    padding: 15px 20px;
+}
+.MV > li:hover{
+background:#79a4e7;
+}
+
+.MH > li:hover{
+    background:#fffc2e;
+    width: 200px;
+}
+.MV{
+width: 400px;
+}

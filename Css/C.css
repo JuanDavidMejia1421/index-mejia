@@ -1,0 +1,22 @@
+table {
+    width: 100%;
+}
+
+.RE{
+    text-align: right;
+}
+
+.E {
+    color: rgb(0, 159, 170);
+}
+
+body {
+    min-height: 5000vh;
+    max-width: 200px;
+    background-color: rgb(201, 143, 19); 
+    margin: 0 auto;
+}
+button {
+    width: 100%;
+    font-size: 150%;
+}

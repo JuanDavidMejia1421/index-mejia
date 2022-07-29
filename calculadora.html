@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="Css/C.css" rel="stylesheet">
+    <script src="Js/J.js"></script>    
+    <title>CALCULADORA</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+      </tr><div class="RE">
+      <td colspan="4"><button id="result">0</button></td>
+    </div>
+    <tr>
+        <td><button onclick="add('1')">1</button></td>
+        <td><button onclick="add('2')">2</button></td>
+        <td><button onclick="add('3')">3</button></td>
+        <td><button onclick="add('+')">+</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="add('4')">4</button></td>
+        <td><button onclick="add('5')">5</button></td>
+        <td><button onclick="add('6')">6</button></td>
+        <td><button onclick="add('-')">-</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="add('7')">7</button></td>
+        <td><button onclick="add('8')">8</button></td>
+        <td><button onclick="add('9')">9</button></td>
+        <td><button onclick="add('*')">*</button></td>
+      </tr>
+      <tr>
+        <td colspan="3"><button onclick="add('0')">0</button></td>
+        <td colspan="3"><button onclick="add('/')">/</button></td>          
+      </tr>
+      <tr>
+        <td colspan="2"><button onclick="del()" class="E">ELIM</button></td>
+        <td><button onclick="add('.')">.</button></td>
+        <td><button onclick="calc()">=</button></td>            
+      </tr>
+    </table>
+  </body>
+</html>
